@@ -1,7 +1,7 @@
 pipeline {
     agent {
         lable {
-               label "QA"
+               label "built-in"
                customWorkspace "/data/projects"
 }
 }
